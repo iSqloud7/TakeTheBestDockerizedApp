@@ -1,0 +1,146 @@
+﻿@model TakeTheBest_Project.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="center mt-4">
+    <span id="details-customer">⋟【Информации за клиентот!】⋞</span>
+</div>
+
+<div class="mt-4">
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Restaurant.restaurantName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Restaurant.restaurantName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customerSurname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customerSurname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customerAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customerAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customerImage)
+        </dt>
+
+        <dd>
+            <img class="image mt-2" src="@Model.customerImage" alt="Customer Image!" style="max-width: 100px; max-height:100px" />
+            @*@Html.DisplayFor(model => model.customerImage)*@
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SelectedItemID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SelectedItemID)
+        </dd>
+
+    </dl>
+</div>
+
+<div class="center mt-5">
+    <div class="form-actions mt-3">
+        <span class="edit-button">
+            @if (User.IsInRole("Administrator") || User.IsInRole("Client"))
+             {
+                @Html.ActionLink("⟳Ажурирај податоци!", "Edit", new { id = Model.customerID }, new { @class = "btn btn-light" })
+             }
+        </span>
+    </div>
+
+    <div class="form-actions mt-2">
+        <span class="back-button btn btn-light">
+            @Html.ActionLink("《 Назад до почетна!", "Index", null, new { @class = "link-css" })
+        </span>
+    </div>
+</div>
+
+<style>
+    body {
+        background-image: url('../../projectimages/customerimage2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        height: 100vh;
+    }
+    #details-customer {
+        background-color: wheat;
+        font-size: 20px;
+        border: 5px solid wheat;
+        border-radius: 5px;
+    }
+    .dl-horizontal {
+        text-align: center;
+    }
+    .dl-horizontal dt {
+        color: saddlebrown;
+        font-size: 20px;
+        letter-spacing: -1.5px;
+        display: inline;
+        border: 3px solid gray;
+        background-color: antiquewhite;
+        border-radius: 5px;
+    }
+    .dl-horizontal dd {
+        color: wheat;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .dl-horizontal dd:hover{
+        font-style: italic;
+    }
+    .center {
+        text-align: center;
+    }
+    .edit-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .back-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .image {
+        border: 3px solid antiquewhite;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .link-css {
+        text-decoration: none;
+        color: black;
+    }
+    .link-css:hover {
+        text-decoration: underline;
+    }
+</style>
+

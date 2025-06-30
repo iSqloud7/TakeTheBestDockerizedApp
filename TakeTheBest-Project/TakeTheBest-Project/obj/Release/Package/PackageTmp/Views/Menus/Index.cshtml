@@ -1,0 +1,141 @@
+﻿@model IEnumerable<TakeTheBest_Project.Models.Menu>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="card">
+        <a href="@Url.Action("BreakfastView", "FoodCategories")" class="image-link">
+            <img src="~/ProjectImages/breakfast.jpg" alt="Breakfast!" />
+        </a>
+        <div class="content">
+            <div class="breakfast">
+                <h2>Breakfast</h2>
+                <p>Breakfast is often called 'the most important meal of the day', It replenishes your supply of glucose to boost your energy levels and alertness, while also providing other essential nutrients required for good health.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="@Url.Action("LunchView", "FoodCategories")" class="image-link">
+            <img src="~/ProjectImages/lunch.jpg" alt="Lunch!" />
+        </a>
+        <div class="content">
+            <div class="lunch">
+                <h2>Lunch</h2>
+                <p>Lunch is a light midday meal between breakfast and dinner.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="@Url.Action("DinnerView", "FoodCategories")" class="image-link">
+            <img src="~/ProjectImages/dinner.jpg" alt="Dinner!" />
+        </a>
+        <div class="content">
+            <div class="dinner">
+                <h2>Dinner</h2>
+                <p>Dinner is the main meal of the day, usually the meal you eat in the evening.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="@Url.Action("DessertView", "FoodCategories")" class="image-link">
+            <img src="~/ProjectImages/dessert.jpg" alt="Desserts!" />
+        </a>
+        <div class="content">
+            <div class="desserts">
+                <h2>Desserts</h2>
+                <p>Dessert is a type of food that is eaten after lunch or dinner, and sometimes after a light meal or snack. It is usually a sweet food, like ice cream, cookies, and cakes.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <a href="@Url.Action("DrinkView", "FoodCategories")" class="image-link">
+            <img src="~/ProjectImages/drink.jpg" alt="Drinks!" />
+        </a>
+        <div class="content">
+            <div class="drinks">
+                <h2>Drinks</h2>
+                <p>A drink is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('../../projectimages/black-background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        height: 100vh;
+        backdrop-filter: blur(2px);
+    }
+    .navbar {
+        margin-left: 0;
+        padding-left: 100px;
+        margin-right: 0;
+        padding-right: 100px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 400px;
+        border: 5px solid black;
+        border-radius: 15px;
+        flex-shrink: 0;
+        background-color: lightcyan;
+    }
+    .card:hover {
+        transform: scale(1.05);
+        background-color: steelblue;
+    }
+    .image-link {
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .image-link img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         cursor: pointer;
+         padding: 10px;
+    }
+    .content {
+        padding: 10px;
+        height: 50%;
+        overflow-y: auto;
+        text-align: center;
+    }
+    .content h2 {
+        margin: 0;
+        color: darkred;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+    .content p {
+         margin: 10px 0 0;
+         letter-spacing: -1.5px;
+         margin-top: -3px;
+         color: red;
+     }
+</style>

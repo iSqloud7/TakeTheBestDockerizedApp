@@ -1,0 +1,252 @@
+﻿@model IEnumerable<TakeTheBest_Project.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-5">
+    <h2 id="customer-page">《《 Клиенти 》》</h2>
+</div>
+
+<div class="center mt-3">
+    <span id="add-customer">
+        @if (User.IsInRole("Administrator") || User.IsInRole("Client"))
+         {
+            @Html.ActionLink("➢【Додади клиент!】", "Create", null, new { @class = "link-css" })
+         }
+    </span>
+</div>
+
+<div class="mt-5">
+    <table id="customer-table" class="table">
+        <thead>
+            <tr class="titles">
+                <th>
+                    @Html.DisplayNameFor(model => model.Restaurant.restaurantName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.customerName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.customerSurname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.customerAge)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.customerImage)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SelectedItemID)
+                </th>
+                <th></th><th></th><th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="data">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Restaurant.restaurantName)
+                    </td>
+                    <td id="id_to_details">
+                        @if (User.IsInRole("Administrator") || User.IsInRole("Developer"))
+                        {
+                            @*@Html.DisplayFor(modelItem => item.customerName)*@
+                            <a href="@Url.Action("Details", new { id = item.customerID })">@item.customerName</a>
+                        }
+
+                        @if (User.IsInRole("Client"))
+                         {
+                            @Html.DisplayFor(modelItem => item.customerName)
+                         }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.customerSurname)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.customerAge)
+                    </td>
+                    <td>
+                        <img class="image mt-2" src="@item.customerImage" alt="Customer Image!" style="max-width: 100px; max-height:100px" />
+                        @*@Html.DisplayFor(modelItem => item.customerImage)*@
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SelectedItemID)
+                    </td>
+                    <td>
+                        @if (User.IsInRole("Administrator") || User.IsInRole("Client"))
+                         {
+                            @Html.ActionLink("Ажурирај!", "Edit", new { id = item.customerID }, new { @class = "crud-buttons" })
+                         }
+                    </td>
+                    <td>
+                        @if (User.IsInRole("Administrator") || User.IsInRole("Developer"))
+                         {
+                            @Html.ActionLink("Детали!", "Details", new { id = item.customerID }, new { @class = "crud-buttons" })
+                         }
+                    </td>
+                    <td>
+                        @if (User.IsInRole("Administrator") || User.IsInRole("Client"))
+                         {
+                            @Html.ActionLink("Избриши!", "Delete", new { id = item.customerID }, new { @class = "crud-buttons" })
+                         }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#customer-table").DataTable({
+                language: {
+                    paginate: {
+                        previous: "《 Претходна ",
+                        next: " Следна 》"
+                    }
+                }
+            });
+        });
+    </script>
+}
+
+<style>
+    body {
+        background-image: url('../../projectimages/customerimage2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(2px);
+    }
+    #customer-page {
+        color: wheat;
+        font-style: italic;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+    }
+    .center {
+        text-align: center;
+    }
+    #add-customer {
+        background-color: antiquewhite;
+        font-size: 20px;
+        border: 5px solid wheat;
+        border-radius: 10px;
+    }
+    #add-customer:hover {
+        background-color: antiquewhite;
+        font-style: italic;
+    }
+    .link-css {
+        text-decoration: none;
+        color: black;
+    }
+    .link-css:hover {
+        text-decoration: underline;
+    }
+    .titles {
+        color: wheat;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: -1.5px;
+    }
+    .data {
+        color: antiquewhite;
+        font-size: 17px;
+        text-align: center;
+        letter-spacing: -1px;
+    }
+    .data:hover {
+        color: wheat;
+        font-size: 17px;
+        font-weight: bold;
+        cursor:  text;
+    }
+    .crud-buttons {
+        text-decoration: none;
+        color: black;
+        background-color: darkgray;
+        border: 3px solid white;
+        border-radius: 10px;
+        letter-spacing: -1.5px;
+    }
+    .crud-buttons:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    .image {
+        border: 3px solid antiquewhite;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #id_to_details a {
+        text-decoration: none;
+        color: lightgray;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+
+
+/*     CSS for DataTable*/
+    .dataTables_wrapper .dataTables_filter {
+        color: antiquewhite;
+        font-weight: bold;
+        letter-spacing: -2px;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    }
+    .dataTables_wrapper .dataTables_filter input {
+        color: black;
+        background-color: lightgray;
+    }
+    .dataTables_wrapper .dataTables_length {
+        color: antiquewhite;
+        font-weight: bold;
+        letter-spacing: -2px;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    }
+    .dataTables_wrapper .dataTables_length select {
+        color: black;
+        background-color: lightgray;
+    }
+    .dataTables_wrapper .dataTables_info {
+        color: antiquewhite;
+        font-weight: bold;
+        letter-spacing: -2px;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    }
+    .dataTables_wrapper .dataTables_scrollBody {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .dataTables_wrapper .dataTables_scrollHead {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        color: #fff !important;
+        background-color: lightgray !important;
+        border: 1px solid #ddd;
+        padding: 5px 10px;
+        margin: 2px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        background-color: #555 !important;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+        background-color: #009879 !important;
+        color: white !important;
+    }
+</style>

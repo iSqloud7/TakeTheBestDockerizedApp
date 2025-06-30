@@ -1,0 +1,130 @@
+﻿@model TakeTheBest_Project.Models.Customer
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-4">
+    <span id="edit-customer">⋟【Ажурирај податоци за клиентот!】⋞</span>
+</div>
+
+<div class="mt-4">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.customerID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.customerName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.customerName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.customerName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.customerSurname, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.customerSurname, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.customerSurname, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.customerAge, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.customerAge, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.customerAge, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.customerImage, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.customerImage, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.customerImage, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.restaurantID, "Избери ресторан:", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("restaurantID", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.restaurantID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SelectedItemID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SelectedItemID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SelectedItemID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <div class="form-actions mt-3">
+                <span class="save-button">
+                    <input type="submit" value="Зачувај промени! ☑" class="btn btn-light" />
+                </span>
+            </div>
+
+            <div class="form-actions mt-2">
+                <span class="back-button btn btn-light">
+                    @Html.ActionLink("《 Назад до почетна!", "Index", null, new { @class = "link-css" })
+                </span>
+            </div>
+        </div>
+    </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    body {
+        background-image: url('../../projectimages/customerimage2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        height: 100vh;
+    }
+    #edit-customer {
+        background-color: wheat;
+        font-size: 20px;
+        border: 5px solid wheat;
+        border-radius: 5px;
+    }
+    .form-group {
+        color: wheat;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: -1.5px;
+    }
+    .save-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .back-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .link-css {
+        text-decoration: none;
+        color: black;
+    }
+    .link-css:hover {
+        text-decoration: underline;
+    }
+</style>

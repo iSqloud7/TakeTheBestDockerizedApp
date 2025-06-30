@@ -1,0 +1,164 @@
+﻿@model TakeTheBest_Project.Models.FoodCategory
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="center mt-4">
+    <span id="delete-item">⋟【Избриши ставка!】⋞</span>
+</div>
+
+<div class="mt-4">
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoryDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryIngredients)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoryIngredients)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryOrigin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoryOrigin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoryRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoryPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoryImage)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.categoryImage)*@
+            <img class="image mt-2" src="@Model.categoryImage" alt="Category Image!" style="max-width: 100px; max-height:100px" />
+        </dd>
+    </dl>
+</div>
+
+<div class="center mt-5">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions mt-3">
+            <span class="delete-button">
+                <input type="submit" value="Избриши! ✘" class="btn btn-light" />
+            </span>
+        </div>
+        <div class="form-actions mt-2">
+            <span class="back-button btn btn-light">
+                @Html.ActionLink("《 Назад до почетна!", "Index", "Menus", null, new { @class = "link-css" })
+            </span>
+        </div>
+    }
+</div>
+
+<style>
+    body {
+        background-image: url('../../projectimages/customerimage2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        height: 100vh;
+    }
+
+    #delete-item {
+        background-color: wheat;
+        font-size: 20px;
+        border: 5px solid wheat;
+        border-radius: 5px;
+    }
+
+    .dl-horizontal {
+        text-align: center;
+    }
+
+        .dl-horizontal dt {
+            color: saddlebrown;
+            font-size: 20px;
+            letter-spacing: -1.5px;
+            display: inline;
+            border: 3px solid gray;
+            background-color: antiquewhite;
+            border-radius: 5px;
+        }
+
+        .dl-horizontal dd {
+            color: wheat;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+            .dl-horizontal dd:hover {
+                font-style: italic;
+            }
+
+    .center {
+        text-align: center;
+    }
+
+    .delete-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .back-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .image {
+        border: 3px solid antiquewhite;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .link-css {
+        text-decoration: none;
+        color: black;
+    }
+
+        .link-css:hover {
+            text-decoration: underline;
+        }
+</style>

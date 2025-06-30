@@ -1,0 +1,108 @@
+﻿@model TakeTheBest_Project.Models.RegisterViewModel
+@{
+    ViewBag.Title = "《《 Регистрација 》》";
+}
+
+<main aria-labelledby="title" class="container mt-5">
+    <h2 id="title" class="text-center mb-4">@ViewBag.Title</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <section id="registerForm" class="card p-4 shadow-sm">
+                @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <h4 class="text-center title">Креирајте нова сметка</h4>
+                    <hr />
+                    @*@Html.ValidationSummary("", new { @class = "alert alert-danger" })*@
+
+                    <div class="mb-3">
+                        @Html.LabelFor(m => m.Email, "Е-маил", new { @class = "form-label" })
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Внесете го вашиот е-маил" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.LabelFor(m => m.Password, "Лозинка", new { @class = "form-label" })
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Внесете ја вашата лозинка" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.LabelFor(m => m.ConfirmPassword, "Потврдете ја лозинката", new { @class = "form-label" })
+                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", placeholder = "Потврдете ја вашата лозинка" })
+                        @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <input type="submit" value="Регистрирајте се" class="btn btn-dark" />
+                    </div>
+
+                    <p class="mt-3 text-center">
+                        <a href="@Url.Action("Login", "Account")" class="link">Веќе имате сметка? Најавете се</a>
+                    </p>
+                }
+            </section>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url('../../projectimages/black-background.jpg');
+        backdrop-filter: blur(30px);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #registerForm {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(90deg, rgba(0, 50, 0, 0.9), rgba(0, 0, 0, 0.9));
+        backdrop-filter: blur(10px);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border-radius: 50px;
+    }
+
+    .text-center {
+        color: rgba(173, 216, 230, 1);
+        font-weight: bold;
+    }
+
+    .form-label {
+        color: rgba(173, 216, 230, 1);
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .link {
+        color: rgba(173, 216, 230, 1);
+        background: linear-gradient(90deg, rgba(80, 200, 120, 0.9), rgba(0, 0, 0, 0.9));
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    .title {
+        color: rgba(173, 216, 230, 1);
+        background: linear-gradient(90deg, rgba(80, 200, 120, 0.9), rgba(0, 0, 0, 0.9));
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 5px;
+        letter-spacing: -1px;
+    }
+</style>

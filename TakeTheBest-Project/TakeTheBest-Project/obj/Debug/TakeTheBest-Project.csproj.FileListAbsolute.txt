@@ -1,0 +1,444 @@
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.dll.config
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.pdb
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.exe
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.exe.config
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.rsp
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.exe
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.exe.config
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.rsp
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.AppContext.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Console.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Net.Http.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.exe
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.exe.config
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.rsp
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Antlr3.Runtime.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.SqlServer.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Newtonsoft.Json.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Helpers.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Mvc.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Optimization.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Razor.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\WebGrease.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Helpers.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Mvc.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Optimization.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Razor.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Newtonsoft.Json.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Antlr3.Runtime.pdb
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.SqlServer.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheB.B10AC0AC.Up2Date
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.dll
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.pdb
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest_Project.Migrations.ModelsMigration.resources
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.GenerateResource.cache
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest_Project.Migrations.InitialMigration.resources
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest_Project.Migrations.SelectedItemIDMigration.resources
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest_Project.Migrations.ChangesInCustomerModel.resources
+C:\Users\Ivan\Desktop\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest_Project.Migrations.FoodCategory.resources
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.dll.config
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.pdb
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.exe
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.exe.config
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.rsp
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.exe
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.exe.config
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.rsp
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.AppContext.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Collections.Immutable.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Console.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Globalization.Calendars.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.Compression.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.FileSystem.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Net.Http.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Net.Sockets.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.ValueTuple.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XPath.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.exe
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.exe.config
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.rsp
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\VBCSCompiler.exe
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\VBCSCompiler.exe.config
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Antlr3.Runtime.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.SqlServer.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Google.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Web.Infrastructure.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Newtonsoft.Json.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Owin.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Helpers.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Mvc.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Optimization.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Razor.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Deployment.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Razor.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\WebGrease.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Helpers.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Mvc.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Optimization.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Razor.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Deployment.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Razor.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Newtonsoft.Json.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Antlr3.Runtime.pdb
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.SqlServer.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Google.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.AssemblyReference.cache
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.CoreCompileInputs.cache
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheB.B10AC0AC.Up2Date
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.dll
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.pdb
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest_Project.Migrations.InitialMigration.resources
+D:\Семестар IV\Интернет технологии\TakeTheBest IT-Project\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.GenerateResource.cache
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.dll.config
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.pdb
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.exe
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.exe.config
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.rsp
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.exe
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.exe.config
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.rsp
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.AppContext.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Console.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Net.Http.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.exe
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.exe.config
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.rsp
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Antlr3.Runtime.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.SqlServer.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Newtonsoft.Json.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Helpers.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Mvc.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Optimization.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Razor.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\WebGrease.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Helpers.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Mvc.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Optimization.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Razor.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Newtonsoft.Json.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Antlr3.Runtime.pdb
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.SqlServer.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheB.B10AC0AC.Up2Date
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.dll
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.pdb
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest_Project.Migrations.InitialMigration.resources
+C:\Users\Ivan\Desktop\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.GenerateResource.cache
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.dll.config
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\TakeTheBest-Project.pdb
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.exe
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.exe.config
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csc.rsp
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.exe
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.exe.config
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\csi.rsp
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.AppContext.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Console.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Net.Http.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.exe
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.exe.config
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\vbc.rsp
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Antlr3.Runtime.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.SqlServer.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Newtonsoft.Json.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Owin.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Helpers.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Mvc.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Optimization.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Razor.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\WebGrease.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Helpers.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Mvc.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Optimization.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.Razor.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Newtonsoft.Json.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Antlr3.Runtime.pdb
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\EntityFramework.SqlServer.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.AssemblyReference.cache
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest_Project.Migrations.InitialMigration.resources
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.GenerateResource.cache
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheB.B10AC0AC.Up2Date
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.dll
+C:\Users\Ivan\Desktop\TakeTheBestApplication\TakeTheBest-Project\TakeTheBest-Project\obj\Debug\TakeTheBest-Project.pdb

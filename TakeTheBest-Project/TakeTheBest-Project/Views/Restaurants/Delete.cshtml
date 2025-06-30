@@ -1,0 +1,140 @@
+﻿@model TakeTheBest_Project.Models.Restaurant
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="center mt-4">
+    <span id="delete-restaurant">⋟【Избриши ресторан!】⋞</span>
+</div>
+
+<div class="mt-4">
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurantName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurantAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurantRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantImage)
+        </dt>
+
+        <dd>
+            <img class="image mt-2" src="@Model.restaurantImage" alt="Restaurant Image!" style="max-width: 100px; max-height:100px" />
+            @*@Html.DisplayFor(model => model.restaurantImage)*@
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurantDescription)
+        </dd>
+
+    </dl>
+</div>
+
+<div class="center mt-5">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions mt-3">
+            <span class="delete-button">
+                <input type="submit" value="Избриши! ✘" class="btn btn-light" />
+            </span>
+        </div>
+
+        <div class="form-actions mt-2">
+            <span class="back-button btn btn-light">
+                @Html.ActionLink("《 Назад до почетна!", "Index", null, new { @class = "link-css" })
+            </span>
+        </div>
+     }
+</div>
+
+<style>
+    body {
+        background-image: url('../../projectimages/restaurantsimage1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        height: 100vh;
+    }
+    #delete-restaurant {
+        background-color: wheat;
+        font-size: 20px;
+        border: 5px solid wheat;
+        border-radius: 5px;
+    }
+    .dl-horizontal {
+        text-align: center;
+    }
+    .dl-horizontal dt {
+        color: saddlebrown;
+        font-size: 20px;
+        letter-spacing: -1.5px;
+        display: inline;
+        border: 3px solid gray;
+        background-color: antiquewhite;
+        border-radius: 5px;
+    }
+    .dl-horizontal dd {
+        color: wheat;
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+    .dl-horizontal dd:hover{
+        font-style: italic;
+    }
+    .center {
+        text-align: center;
+    }
+    .delete-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;   
+    }
+    .back-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }    
+    .image {
+        border: 3px solid antiquewhite;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .link-css {
+        text-decoration: none;
+        color: black;
+    }
+    .link-css:hover {
+        text-decoration: underline;
+    }
+</style>
+

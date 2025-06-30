@@ -1,0 +1,141 @@
+﻿@model TakeTheBest_Project.Models.FoodCategory
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-4">
+    <span id="create-item">⋟【Додади ставка!】⋞</span>
+</div>
+
+<div class="mt-4">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.categoryName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.categoryName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.categoryName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.categoryDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.categoryDescription, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.categoryDescription, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.categoryIngredients, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.categoryIngredients, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.categoryIngredients, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.categoryOrigin, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.categoryOrigin, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.categoryOrigin, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.categoryRating, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.categoryRating, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.categoryRating, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.categoryPrice, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.categoryPrice, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.categoryPrice, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.categoryImage, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.categoryImage, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.categoryImage, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="form-actions mt-3">
+                    <span class="save-button">
+                        <input type="submit" value="Додади! ➕" class="btn btn-light" />
+                    </span>
+                </div>
+
+                <div class="form-actions mt-2">
+                    <span class="back-button btn btn-light">
+                        @Html.ActionLink("《 Назад до почетна!", "Index", "Menus", null, new { @class = "link-css" })
+                    </span>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    body {
+        background-image: url('../../projectimages/customerimage2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        height: 100vh;
+    }
+
+    #create-item {
+        background-color: wheat;
+        font-size: 20px;
+        border: 5px solid wheat;
+        border-radius: 5px;
+    }
+
+    .form-group {
+        color: wheat;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: -1.5px;
+    }
+
+    .save-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .back-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .link-css {
+        text-decoration: none;
+        color: black;
+    }
+
+        .link-css:hover {
+            text-decoration: underline;
+        }
+</style>
