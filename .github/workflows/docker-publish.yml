@@ -3,11 +3,11 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - master  
+      - master
 
 jobs:
   build-and-push:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repo
@@ -21,9 +21,9 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build \
-            -t ${{ secrets.DOCKERHUB_USERNAME }}/takethebest-app:latest \
-            -f TakeTheBest-Project/TakeTheBest-Project/Dockerfile \
+          docker build `
+            -t ${{ secrets.DOCKERHUB_USERNAME }}/takethebest-app:latest `
+            -f TakeTheBest-Project/TakeTheBest-Project/Dockerfile `
             TakeTheBest-Project/TakeTheBest-Project
 
       - name: Push Docker image to DockerHub
