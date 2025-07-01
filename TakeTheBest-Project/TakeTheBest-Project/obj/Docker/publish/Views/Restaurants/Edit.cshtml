@@ -1,0 +1,123 @@
+﻿@model TakeTheBest_Project.Models.Restaurant
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-4">
+    <span id="edit-restaurant">⋟【Ажурирај податоци за ресторанот!】⋞</span>
+</div>
+
+<div class="mt-4">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.restaurantID)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.restaurantName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.restaurantName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.restaurantName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.restaurantAddress, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.restaurantAddress, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.restaurantAddress, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.restaurantRating, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.restaurantRating, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.restaurantRating, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.restaurantImage, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.restaurantImage, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.restaurantImage, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.restaurantDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.restaurantDescription, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.restaurantDescription, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <div class="form-actions mt-3">
+                    <span class="save-button">
+                        <input type="submit" value="Зачувај промени! ☑" class="btn btn-light" />
+                    </span>
+                </div>
+
+                <div class="form-actions mt-2">
+                    <span class="back-button btn btn-light">
+                        @Html.ActionLink("《 Назад до почетна!", "Index", null, new { @class = "link-css" })
+                    </span>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    body {
+        background-image: url('../../projectimages/restaurantsimage1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        height: 100vh;
+        backdrop-filter: blur(3px);
+    }
+    #edit-restaurant {
+        background-color: wheat;
+        font-size: 20px;
+        border: 5px solid wheat;
+        border-radius: 5px;
+    }
+    .form-group {
+        color: wheat;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: -1.5px;
+    }
+    .save-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .back-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .link-css {
+        text-decoration: none;
+        color: black;
+    }
+    .link-css:hover {
+        text-decoration: underline;
+    }
+</style>

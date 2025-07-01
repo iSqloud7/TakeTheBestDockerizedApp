@@ -1,0 +1,94 @@
+﻿@model TakeTheBest_Project.Models.AddUserToRoleModel
+
+@{
+    ViewBag.Title = "AddUserToRoleView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <div id="empty">
+        <img id="image" src="~/ProjectImages/role.jpg" style="max-width:1000px; max-height:1000px" />""
+    </div>
+
+    <div class="form-container mt-4">
+        @using (Html.BeginForm("AddUserToRoleView", "Account"))
+        {
+            <div class="form-group">
+                @Html.LabelFor(z => z.userEmail)
+                @Html.TextBoxFor(z => z.userEmail, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(z => z.selectedRole)
+                @Html.DropDownListFor(z => z.selectedRole, new SelectList(Model.Roles), "Select Role!", new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn-submit">Додади улога на корисник!</button>
+            </div>
+        }
+    </div>
+
+</div>
+
+<style>
+    body {
+        background-image: url('../../projectimages/restaurantsimage6.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+    }
+    #empty {
+        flex: 1;
+        max-width: 50%;
+    }
+    #empty #image {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .form-container {
+        flex: 1;
+        max-width: 50%;
+        padding: 20px;
+        border: 3px solid darkgreen;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px rgba(0, 255, 0, 0.55);
+        backdrop-filter: blur(30px);
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-group input, .form-group select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .btn-submit {
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn-submit:hover {
+        background-color: #218838;
+    }
+</style>

@@ -1,0 +1,218 @@
+﻿@model TakeTheBest_Project.Models.Restaurant
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="center mt-4">
+    <span id="details-restaurant">⋟【Информации за ресторанот!】⋞</span>
+</div>
+
+<div class="menu center mt-3">
+    <span>
+        <button><a class="menu-link" href="@Url.Action("Index", "Menus")"><img class="icon" src="~/ProjectImages/menu.jpg" /> 》》》【Menu】</a></button>
+    </span>
+</div>
+
+
+<div class="info mt-4">
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurantName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurantAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurantRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantImage)
+        </dt>
+
+        <dd>
+            <img class="image mt-2" src="@Model.restaurantImage" alt="Restaurant Image!" style="max-width: 100px; max-height:100px" />
+            @*@Html.DisplayFor(model => model.restaurantImage)*@
+        </dd>
+
+        <dt>Гости во ресторанот:</dt>
+        <dd>
+            <div class="costumers mt-1">
+                <ul class="list">
+                    @foreach (var customer in Model.Customers)
+                    {
+                        @*<li>@Html.ActionLink($"{customer.customerName} {customer.customerSurname} {customer.customerImage}", "Details", "Customers", new { ID = customer.customerID }, null)</li>*@
+                        <li>
+                            <a class="link" href="@Url.Action("Details", "Customers", new { ID = customer.customerID })">
+                                <div class="card">
+                                    <div class="identity">
+                                        @customer.customerName @customer.customerSurname
+                                    </div>
+
+                                    <div class="photo">
+                                        <img src="@customer.customerImage" alt="Customer Image" style="max-width: 30px; max-height:30px; border: 1px solid antiquewhite; border-radius: 10px;" />
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.restaurantDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.restaurantDescription)
+        </dd>
+
+    </dl>
+</div>
+
+<div class="center mt-5">
+    <div class="form-actions mt-3">
+        <span class="edit-button">
+            @if (User.IsInRole("Administrator") || User.IsInRole("Developer"))
+             {
+                @Html.ActionLink("Измени податоци!", "Edit", new { id = Model.restaurantID }, new { @class = "btn btn-light" })
+             }
+        </span>
+    </div>
+
+    <div class="form-actions mt-2">
+        <span class="back-button btn btn-light">
+            @Html.ActionLink("《 Назад до почетна!", "Index", null, new { @class = "link-css" })
+        </span>
+    </div>
+
+</div>
+
+<style>
+    body {
+        background-image: url('../../projectimages/restaurantsimage1.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin: 0;
+        height: 100vh;
+/*        backdrop-filter: blur(2px);*/
+    }
+    .info {
+        background-image: url('../../projectimages/restaurantsimage8.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #details-restaurant {
+        background-color: wheat;
+        font-size: 20px;
+        border: 5px solid wheat;
+        border-radius: 5px;
+    }
+    .dl-horizontal {
+        text-align: center;
+    }
+    .dl-horizontal dt {
+        color: saddlebrown;
+        font-size: 20px;
+        letter-spacing: -1.5px;
+        display: inline;
+        border: 3px solid gray;
+        background-color: antiquewhite;
+        border-radius: 5px;
+        letter-spacing: 2.5px;
+    }
+    .dl-horizontal dd {
+        color: wheat;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .dl-horizontal dd:hover {
+        font-style: italic;
+     }
+    .center {
+        text-align: center;
+    }
+    .edit-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .back-button {
+        border: 3px solid wheat;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .image {
+        border: 3px solid antiquewhite;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .link-css {
+        text-decoration: none;
+        color: black;
+    }
+    .link-css:hover {
+        text-decoration: underline;
+    }
+    .list {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list li {
+        margin: 3px;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+    .link {
+        text-decoration: none;
+        color: black;
+        background-color: antiquewhite;
+    }
+    .icon {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .menu-link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .menu span {
+        display: inline-block;
+        text-align: center;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+    .menu button:hover{
+        background-color: gray;
+    }
+</style>

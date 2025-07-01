@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Take The Best", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("➣Ресторани", "Index", "Restaurants", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("➣Клиенти", "Index", "Customers", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("➣Мени", "Index", "Menus", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("➣Улоги", "AddUserToRoleView", "Account", new { area = "" }, new { @class = "nav-link" })</li>
+
+                </ul>
+                 @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        @*<footer>
+            <div class="container">
+                <p>&copy; 2024 Take The Best. Сите права задржани.</p>
+                <a href="https://isqloud7.github.io/pupinoskii_portfolio/" target="_blank" class="btn">Посетете го моето портфолио</a>
+                <a href="#">Контакт</a> | <a href="#">Политика на приватност</a>
+            </div>
+        </footer>*@
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+<style>
+    .navbar .container {
+        background-image: url('../../projectimages/black-background.jpg');
+        backdrop-filter: blur(30px);
+        box-shadow: 0px 0px 30px rgba(0, 255, 0, 0.55);
+        border: 5px solid rgba(255, 255, 255, 0.18);
+        border-radius: 15px;
+    }
+    .navbar-brand {
+        color: white;
+        font-size: 20px;
+        letter-spacing: -3px;
+        padding-left: 10px;
+    }
+    .navbar-brand:hover{
+        color: lightgray;
+        font-size: 20px;
+        letter-spacing: -3px;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.60);
+    }
+    .nav-link{
+        color: antiquewhite;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        margin-left: 20px;
+    }
+    .nav-link:hover{
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+    }
+</style>

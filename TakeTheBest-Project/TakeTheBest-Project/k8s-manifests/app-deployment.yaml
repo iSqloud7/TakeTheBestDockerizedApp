@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: take-the-best-app
+  namespace: take-the-best
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: take-the-best-app
+  template:
+    metadata:
+      labels:
+        app: take-the-best-app
+    spec:
+      containers:
+      - name: takethebest-app
+        image: ivkeex/takethebest-app:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: ConnectionStrings__DefaultConnection
+          value: "Server=sqlserver;Database=TakeTheBestDatabase;User Id=sa;Password=$(SA_PASSWORD);TrustServerCertificate=True;"
+        - name: SA_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: app-secret
+              key: SA_PASSWORD
+        - name: LOG_LEVEL
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: LOG_LEVEL

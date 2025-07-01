@@ -1,0 +1,167 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take The Best - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Добредојдовте на нашата веб страница!</br><span id="project_name">》Take The Best</span></h1>
+            <p>➣Вашата дестинација за откривање на врвни ресторани и вкусна храна.</p>
+        </div>
+    </header>
+
+    <section id="welcome">
+        <div class="container">
+            <p>Со задоволство ви го претставуваме нашето уникатно искуство, каде што квалитетот, посветеноста и задоволството на клиентите се на прво место. 
+            Без разлика дали сте тука за првпат или наш верен клиент, ви стоиме на располагање за да ги исполните вашите потреби. 
+            Истражете ги нашите услуги и понуди, и дозволете ни да ви помогнеме да го најдете она што го барате!</p>
+            <p>Добредојдовте на Take The Best – вашата дестинација за откривање на врвни ресторани! 
+            Со нашата апликација, имате можност да изберете од најдобрите ресторани и да уживате во нивната вкусна храна. 
+            Без разлика дали сакате традиционални специјалитети или модерна кујна, 
+            Take The Best ви овозможува незаборавно гастрономско искуство, директно од удобноста на вашиот дом. 
+                <span>Одберете го најдоброто и уживајте во секој залак!</span></p>
+            <a href="/Restaurants/Index" class="btn">Истражете ги нашите ресторани</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Take The Best. Сите права задржани.</p>
+            @*<a href="https://isqloud7.github.io/pupinoskii_portfolio/" target="_blank" class="btn">Посетете го моето портфолио</a>
+            <a href="#">Контакт</a> | <a href="#">Политика на приватност</a>*@
+            <a href="https://isqloud7.github.io/" target="_blank" class="btn">Посетете го моето портфолио</a>
+            <a href="#">Контакт</a> | <a href="#">Политика на приватност</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+<style>
+    body {
+        background-image: url('../../projectimages/black-background.jpg');
+        margin: 0;
+        padding: 0;
+        background-color: darkgrey;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+/*HEADER*/
+    header {
+        background-image: url('../../projectimages/restaurantsimage1.jpg');
+        background-size: contain;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+        position: relative;
+    }
+    header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+    }
+    header h1, header p, header a {
+        position: relative;
+        z-index: 1;
+    }
+    header h1 {
+        color: antiquewhite;
+        letter-spacing: -2.5px;
+        font-size: 3em;
+        margin: 0;
+    }
+    #project_name {
+        letter-spacing: -6px;
+        color: lime;
+        text-shadow: 2px 2px 4px rgba(0, 100, 0, 0.8);
+    }
+    header p {
+        margin-top: 50px;
+        color: lime;
+        font-style: italic;
+        letter-spacing: 2.5px;
+        font-size: 1.5em;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+/*SECTION*/
+    section {
+        padding: 50px 20px;
+        text-align: center;
+    }
+    #welcome p {
+        margin: 20px 0;
+        line-height: 1.6;
+        font-size: 1.2em;
+        text-shadow: 2px 2px 4px rgba(0, 100, 0, 0.8);
+        color: lightgreen;
+        word-spacing: 5px;
+    }
+    #welcome .btn {
+        margin-top: 20px;
+        padding: 12px 24px;
+        font-size: 1.2em;
+        transition: background-color 0.3s;
+    }
+    .container span{
+        color: lime;
+    }
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff5733;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+    }
+    .btn:hover {
+        background-color: #c70039;
+    }
+
+/*FOOTER*/
+    footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        letter-spacing: 2px;
+    }
+    footer a {
+        color: lime;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .btn{
+        background-color: lime;
+        color: darkgreen;
+    }
+</style>

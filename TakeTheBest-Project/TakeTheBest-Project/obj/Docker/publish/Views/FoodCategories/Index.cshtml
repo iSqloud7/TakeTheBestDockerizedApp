@@ -1,0 +1,70 @@
+﻿@model IEnumerable<TakeTheBest_Project.Models.FoodCategory>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.categoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.categoryDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.categoryIngredients)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.categoryOrigin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.categoryRating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.categoryPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.categoryImage)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoryDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoryIngredients)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoryOrigin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoryRating)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoryPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoryImage)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.categoryID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.categoryID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.categoryID })
+        </td>
+    </tr>
+}
+
+</table>

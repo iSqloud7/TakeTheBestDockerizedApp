@@ -1,0 +1,7 @@
+﻿version: '3.8'
+
+services:
+  webapp:
+    image: takethebest-app:latest
+    ports:
+      - "8081:80"
